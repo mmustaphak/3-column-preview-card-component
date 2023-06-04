@@ -72,7 +72,7 @@
     align-self: flex-start;
     margin-bottom: 2rem;
 }
-@media( max-width: 375px ){
+@media (orientation: landscape) , ( max-width: 375px ) {
     .card--info{
         display: flex;
         flex-direction: column;
