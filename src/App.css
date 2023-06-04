@@ -1,6 +1,27 @@
-@media (orientation: landscape) and (max-width: 1440px){
-   main{
+main{
     display: flex;
-    height: 100vh;
-   }
+    height: 100vh
+}
+@media  ( max-width: 375px ) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .card--info{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: .9375rem;
+    }
+    .card--info h2{
+        color: hsl(0, 0%, 95%);
+        margin-bottom:1.5rem;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    .card--info p{
+        margin-bottom: 1.5rem;
+        min-width: 15rem;
+        font-family: 'Lexend Deca', sans-serif;
+    }
 }
