@@ -14,6 +14,7 @@
     border: solid 2px hsla(0, 0%, 100%, 0.75);
     background-color: hsl(31, 77%, 52%);
     color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
 }
 .card--2{
     background-color: hsl(184, 100%, 22%);
@@ -25,6 +26,7 @@
     border: solid 2px hsla(0, 0%, 100%, 0.75);
     background-color: hsl(184, 100%, 22%);
     color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
 }
 .card--3{
     background-color: hsl(179, 100%, 13%);
@@ -36,6 +38,7 @@
     border: solid 2px hsla(0, 0%, 100%, 0.75);
     background-color: hsl(179, 100%, 13%);
     color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
 }
 .card--info{
     display: flex;
@@ -61,13 +64,28 @@
     border-radius: 1rem;
     align-self: flex-start;
     width: 9.5rem;
+    
 }
 .card--info img{
     align-self: flex-start;
     margin-bottom: 2rem;
 }
 @media( max-width: 376px ){
+    .card--info{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: .9375rem;
+    }
+    .card--info h2{
+        color: hsl(0, 0%, 95%);
+        margin-bottom:1.5rem;
+        font-family: 'Big Shoulders Display', cursive;
+    }
     .card--info p{
-        max-width: 13rem;
+        margin-bottom: 1.5rem;
+        min-width: 15rem;
+        font-family: 'Lexend Deca', sans-serif;
     }
 }

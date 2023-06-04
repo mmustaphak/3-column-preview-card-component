@@ -1,0 +1,18 @@
+@media (min-width:376px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .card--info{
+        height: 100vh;
+    }
+    main .card--info h2{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    main .card--info p{
+        max-width: 10rem;
+        font-size: 1rem;
+        margin-bottom: 8rem;
+    }
+}

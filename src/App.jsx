@@ -6,9 +6,9 @@ function App() {
     return <Card key={item.id} item={item}/>
   })
   return (
-    <>
+    <main>
       {cardElement}
-    </>
+    </main>
   )
 }
 
