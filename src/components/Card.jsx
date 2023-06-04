@@ -1,10 +1,10 @@
 import "./Card.css"
-export default function Card(){
+export default function Card(props){
     return(
         <div className="card--info">
-            <img src="./src/assets/icon-sedans.svg"/>
-            <h2>SEDANS</h2>
-            <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+            <img src={props.item.image}/>
+            <h2>{props.item.carModel}</h2>
+            <p>{props.item.description}</p>
             <button>Learn More</button>
         </div>
     )
