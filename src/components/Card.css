@@ -10,17 +10,32 @@
 .card--1 button{
     color: hsl(31, 77%, 52%);
 }
+.card--1 button:hover{
+    border: solid 2px hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75);
+}
 .card--2{
     background-color: hsl(184, 100%, 22%);
 }
 .card--2 button{
     color: hsl(184, 100%, 22%);
 }
+.card--2 button:hover{
+    border: solid 2px hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    color:hsla(0, 0%, 100%, 0.75);
+}
 .card--3{
     background-color: hsl(179, 100%, 13%);
 }
 .card--3 button{
     color: hsl(179, 100%, 13%);
+}
+.card--3 button:hover{
+    border: solid 2px hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75);
 }
 .card--info{
     display: flex;
