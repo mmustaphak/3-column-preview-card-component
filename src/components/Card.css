@@ -4,8 +4,25 @@
     padding: 0;
     border: 0;
 }
-.card--info{
+.card--1{
     background-color: hsl(31, 77%, 52%);
+}
+.card--1 button{
+    color: hsl(31, 77%, 52%);
+}
+.card--2{
+    background-color: hsl(184, 100%, 22%);
+}
+.card--2 button{
+    color: hsl(184, 100%, 22%);
+}
+.card--3{
+    background-color: hsl(179, 100%, 13%);
+}
+.card--3 button{
+    color: hsl(179, 100%, 13%);
+}
+.card--info{
     display: flex;
     flex-direction: column;
     padding: 3rem;
@@ -28,7 +45,6 @@
     padding: .7rem 2rem;
     border-radius: 1rem;
     align-self: flex-start;
-    color: hsl(31, 77%, 52%);
     width: 9.5rem;
 }
 .card--info img{
