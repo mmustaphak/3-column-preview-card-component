@@ -2,7 +2,7 @@ main{
     display: flex;
     height: 100vh
 }
-@media  (orientation: landscape),( max-width: 375px ) {
+@media  (orientation: portrait),( max-width: 375px ) {
     main{
         display: flex;
         flex-direction: column;
