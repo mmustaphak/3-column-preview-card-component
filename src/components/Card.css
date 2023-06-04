@@ -1,4 +1,4 @@
-body{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,11 +8,35 @@ body{
     background-color: hsl(31, 77%, 52%);
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 3rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: .9375rem;
+}
+.card--info h2{
+    color: hsl(0, 0%, 95%);
+    margin-bottom:1.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.card--info p{
+    margin-bottom: 1.5rem;
+    min-width: 15rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card--info button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: .7rem 2rem;
+    border-radius: 1rem;
+    align-self: flex-start;
+    color: hsl(31, 77%, 52%);
+    width: 9.5rem;
 }
 .card--info img{
     align-self: flex-start;
+    margin-bottom: 2rem;
 }
-@media( max-width: 375px ){
-    
+@media( max-width: 376px ){
+    .card--info p{
+        max-width: 13rem;
+    }
 }
